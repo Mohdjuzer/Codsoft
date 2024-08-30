@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   box-sizing: border-box;
+}
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calculator{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+   z-index: 1;
+
+}
+.calculator form input{
+    border: 0;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.196),5px 5px 15px rgba(255, 0, 0, 0.2);
+    background: transparent;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+form .display{
+display: flex;
+justify-content: flex-end;
+margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+    height: 75px;
+    
+}
+form input.equal{
+    width: 145px;
+    
+}
+form input.operator{
+    color: yellowgreen;
+}
+.glow-button {
+
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db; /* Button color */
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+  }
+  
+  .glow-button:hover {
+    background-color: teal; /* Darker shade for hover effect */
+    box-shadow: 0 0 15px rgb(0, 149, 255); /* Glow effect */
+    transform: scale(1.1); /* Slightly enlarge the button */
+  }
+  .glow-button1 {
+
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db; /* Button color */
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+  }
+  
+  .glow-button1:hover {
+    background-color: darkslateblue; /* Darker shade for hover effect */
+    box-shadow: 0 0 15px rgba(0, 149, 255, 0.932); /* Glow effect */
+    transform: scale(1.1); /* Slightly enlarge the button */
+  }
+  .glow-button2 {
+
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db; /* Button color */
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+  }
+  
+  .glow-button2:hover {
+    background-color: cornflowerblue; /* Darker shade for hover effect */
+    box-shadow: 0 0 15px rgb(0, 149, 255); /* Glow effect */
+    transform: scale(1.1); /* Slightly enlarge the button */
+  }
+  .glow-button3 {
+
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db; /* Button color */
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+  }
+  
+  .glow-button3:hover {
+    background-color: burlywood; /* Darker shade for hover effect */
+    box-shadow: 0 0 15px rgb(0, 149, 255); /* Glow effect */
+    transform: scale(1.1); /* Slightly enlarge the button */
+  }
+  .glow-button4 {
+
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db; /* Button color */
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+  }
+  
+  .glow-button4:hover {
+    background-color: rgba(173, 216, 230, 0.8); /* Darker shade for hover effect */
+    box-shadow: 0 0 15px rgb(0, 149, 255); /* Glow effect */
+    transform: scale(1.1); /* Slightly enlarge the button */
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+  }
